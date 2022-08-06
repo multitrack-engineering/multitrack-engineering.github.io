@@ -158,6 +158,9 @@ a {
     }
 }
 @media only screen and (max-width: 580px) {
+    .text-container{
+        margin-left: 15px;
+    }
     .text {
         font-size: 32px;
         letter-spacing: 2px;
