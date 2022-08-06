@@ -137,32 +137,40 @@ a {
     padding-bottom: 5px;
 }
 
-@media only screen and (max-width: 1000px) {
-    .logo-container {
-        width: 128px;
-        height: 128px;
+@media only screen and (max-width: 975px) {
+    .row {
+        flex-wrap: wrap;
     }
-    .logo {
-        width: 128px;
-        height: 128px;
+    .logorow {
+        margin-top: 150px;
     }
     .text-container{
-        margin-left: 25px;
-    }
-    .text {
-        font-size: 56px;
-        letter-spacing: 4px;
+        margin-left: 0px;
+        margin-top: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;;
     }
     .footer {
         font-size: 20px;
     }
 }
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 740px) {
+    .logorow {
+        margin-top: 100px;
+    }
     .text-container{
-        margin-left: 15px;
+        margin-top: 50px;
     }
     .text {
-        font-size: 32px;
-        letter-spacing: 2px;
+        font-size: 84px;
+        letter-spacing: 6px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .text {
+        font-size: 56px;
+        letter-spacing: 4px;
     }
 }
