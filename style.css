@@ -57,7 +57,6 @@ body{
 
 .text-container{
     margin-left: 50px;
-    width: 700px;
 }
 
 .text {
@@ -66,6 +65,7 @@ body{
     font-weight: bold;
 
     letter-spacing: 8px;
+    white-space: pre-line;
 
     text-transform: uppercase;
     background-image: linear-gradient(45deg, rgb(189, 54, 38), rgb(57, 212, 226));
@@ -124,7 +124,7 @@ a {
     justify-content: center;
 
     margin-top: auto;
-    font-size: 14px;
+    font-size: 18px;
     font-family: sans-serif;
 
     letter-spacing: 1px;
@@ -143,9 +143,11 @@ a {
     }
     .text-container{
         margin-left: 25px;
-        width: 450px;
     }
     .text {
         font-size: 56px;
     }
-  }
+    .footer {
+        font-size: 20px;
+    }
+}
