@@ -37,7 +37,8 @@ body{
 
 .logo-container {
     display: inline-block;
-    width:256px;
+    height: 256px;
+    width: 256px;
 
     mask-image: radial-gradient(circle at 50% 50%, black 50%, rgb(0,0,0,0.6) 70%, transparent 80%);
     -webkit-mask-image: radial-gradient(circle at 50% 50%, black 50%, rgb(0,0,0,0.6) 70%, transparent 80%);
@@ -45,6 +46,8 @@ body{
 
 .logo {
     display: block;
+    height: 256px;
+    width: 256px;
 
     mask-image: radial-gradient(circle at 50% 50%, black 50%, rgb(0,0,0,0.6) 70%, transparent 80%);
     -webkit-mask-image: radial-gradient(circle at 50% 50%, black 50%, rgb(0,0,0,0.6) 70%, transparent 80%);
@@ -114,3 +117,21 @@ a {
     height: 30px;
     transform: scaleY(-1) rotate(90deg);
 }
+
+@media only screen and (max-width: 1000px) {
+    .logo-container {
+        width: 128px;
+        height: 128px;
+    }
+    .logo {
+        width: 128px;
+        height: 128px;
+    }
+    .text-container{
+        margin-left: 25px;
+        width: 400px;
+    }
+    .text {
+        font-size: 56px;
+    }
+  }
