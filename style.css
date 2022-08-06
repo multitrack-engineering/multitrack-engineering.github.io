@@ -34,7 +34,9 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.logorow {
+    margin-top: 250px;
+}
 .logo-container {
     display: inline-block;
     height: 256px;
@@ -88,12 +90,10 @@ a {
     font-weight: bold;
 
     letter-spacing: 2px;
-
     text-transform: uppercase;
 
     opacity: 0.3;
 
-    border: 1px solid transparent;
     padding: 15px 15px 15px 15px;
 
     margin-top: 100px;
@@ -101,7 +101,6 @@ a {
 
 .reload:hover{
     opacity: 0.5;
-    border: 1px solid #fff;
 }
 
 .reload-icon-container {
@@ -116,6 +115,21 @@ a {
     width: 30px;
     height: 30px;
     transform: scaleY(-1) rotate(90deg);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: auto;
+    font-size: 14px;
+    font-family: sans-serif;
+
+    letter-spacing: 1px;
+
+    opacity: 0.5;
 }
 
 @media only screen and (max-width: 1000px) {
