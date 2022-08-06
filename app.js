@@ -23,7 +23,7 @@ background.style.backgroundImage = "";
 
 img.setAttribute('src', imagePath);
 background.style.backgroundImage = "url('" + imagePath + "')";
-link.href = imagePath;
+//link.href = imagePath;
 
 if (img.complete) {
     updateTextColor(img);
