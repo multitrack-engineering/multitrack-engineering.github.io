@@ -42,7 +42,7 @@ function updateTextColor(img) {
     // Set the text background as a gradient between those two colors
     const textGradient = `linear-gradient(45deg, rgb(${palette[1][0]}, ${palette[1][1]}, ${palette[1][2]}), rgb(${palette[0][0]}, ${palette[0][1]}, ${palette[0][2]}))`
 
-    const text = document.querySelector('div.text');
+    const text = document.querySelector('h1.logo-text');
     text.style.backgroundImage = textGradient;
 }
 

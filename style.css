@@ -1,6 +1,7 @@
 body{
     background-color: #000;
     color: #fff;
+    font-family: 'HelveticaNeue-CondensedBlack', 'Impact', sans-serif;
 }
 .background {
   position: fixed;
@@ -55,19 +56,23 @@ body{
     -webkit-mask-image: radial-gradient(circle at 50% 50%, black 50%, rgb(0,0,0,0.6) 70%, transparent 80%);
 }
 
-.text-container{
+.logo-text-container{
     margin-left: 50px;
+    display:inline-block; 
 }
 
-.text {
+.logo-text {
+    display:inline-block; 
+    margin: 0px;
+
     font-size: 112px;
-    font-family: Futura Condensed Extrabold, Impact, sans-serif;
     font-weight: bold;
 
     letter-spacing: 8px;
     white-space: pre-line;
 
     text-transform: uppercase;
+
     background-image: linear-gradient(45deg, rgb(189, 54, 38), rgb(57, 212, 226));
 
     background-clip: text;
@@ -86,7 +91,6 @@ a {
     justify-content: center;
 
     font-size: 24px;
-    font-family: Futura Condensed Extrabold, Impact, sans-serif;
     font-weight: bold;
 
     letter-spacing: 2px;
@@ -137,14 +141,14 @@ a {
     padding-bottom: 5px;
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 995px) {
     .row {
         flex-wrap: wrap;
     }
     .logorow {
-        margin-top: 150px;
+        margin-top: 100px;
     }
-    .text-container{
+    .logo-text-container{
         margin-left: 0px;
         margin-top: 25px;
         margin-left: 50px;
@@ -154,22 +158,25 @@ a {
     .footer {
         font-size: 20px;
     }
+    .reload {   
+        margin-top: 50px;
+    }
 }
 @media only screen and (max-width: 740px) {
     .logorow {
         margin-top: 100px;
     }
-    .text-container{
+    .logo-text-container{
         margin-top: 50px;
     }
-    .text {
+    .logo-text {
         font-size: 84px;
         letter-spacing: 6px;
     }
 }
 
 @media only screen and (max-width: 580px) {
-    .text {
+    .logo-text {
         font-size: 56px;
         letter-spacing: 4px;
     }
