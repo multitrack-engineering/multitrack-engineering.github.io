@@ -35,7 +35,7 @@ body{
     justify-content: center;
 }
 .logorow {
-    margin-top: 250px;
+    margin-top: 200px;
 }
 .logo-container {
     display: inline-block;
@@ -119,7 +119,7 @@ a {
 
 .footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -130,6 +130,11 @@ a {
     letter-spacing: 1px;
 
     opacity: 0.5;
+}
+
+.footer > a {
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 1000px) {
