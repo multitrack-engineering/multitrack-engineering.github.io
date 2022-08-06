@@ -134,18 +134,18 @@ a {
 
 @media only screen and (max-width: 1000px) {
     .logo-container {
-        width: 192px;
-        height: 192px;
+        width: 128px;
+        height: 128px;
     }
     .logo {
-        width: 192px;
-        height: 192px;
+        width: 128px;
+        height: 128px;
     }
     .text-container{
         margin-left: 25px;
-        width: 500px;
+        width: 450px;
     }
     .text {
-        font-size: 84px;
+        font-size: 56px;
     }
   }
