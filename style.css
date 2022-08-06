@@ -176,6 +176,9 @@ a {
 }
 
 @media only screen and (max-width: 580px) {
+    .logorow {
+        margin-top: 50px;
+    }
     .logo-text {
         font-size: 56px;
         letter-spacing: 4px;
